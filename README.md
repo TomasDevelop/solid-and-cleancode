@@ -16,3 +16,19 @@ yarn dev
 ó
 npm run dev
 ```
+
+```
+S ingleton: patrón singleton.
+T ight Coupling: alto acoplamiento.
+U ntestability: código no probable (unit test)
+P remature optimization: optimizaciones prematuras.
+I ndescriptive naming: nombres poco descriptivos.
+D uplication: duplicidad de código, no aplicar el principio DRY.
+```
+
+```
+DRY: Don't repeat yourself.
+Yo utilizo "globalUtils.ts" para meter funciones que se pueden repetir.
+```
+
+

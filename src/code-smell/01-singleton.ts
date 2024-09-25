@@ -8,9 +8,7 @@ const Singleton = (function () {
 
     return {
         getInstance() {
-            if (!instance) {
-                instance = createInstance();
-            }
+            if (!instance) return instance = createInstance();
             return instance;
         }
     };
